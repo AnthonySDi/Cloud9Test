@@ -1,0 +1,280 @@
+body {
+	background: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	line-height: 1.45;
+	color: #333;
+	font-size: 1em;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* Header
+ * +++++++++++++++++++++++++++++++ */
+header{
+	height: 100px;
+	background: #023951;
+	position: relative;
+	margin-bottom: 20px;
+}
+#head {
+	height: 100px;
+	width:25%;
+}
+header #head img{
+	max-height: 100%;
+	width: auto;
+}
+
+/* Navigation
+ * ++++++++++++++++++++++++++++++*/
+
+header ul{
+	list-style-type: none;
+	font-size: 1.25em;
+	width:700px;
+	float: right;
+	position:absolute;
+	right:50px;
+	top: 25px;
+}
+
+header li {
+	float: left;
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+header a li{
+	text-decoration: none;
+	color: white;
+}
+header a li:hover{
+	background: white;
+	color:#023951;
+	display: block;
+}
+
+.nav-button,
+.mobile-logo,
+.primary-nav{
+	display: none;
+}
+
+
+
+/* Footer
+ * ++++++++++++++++++++++++++++++*/
+
+footer{
+	width:100%;
+	height: 50px;
+	clear: both;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer li{
+	float: left;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	width: 33.33%;
+}
+
+/* Typography
+ * ++++++++++++++++++++++++++++++++++ */
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {
+	font-size: 3.375em;
+	}
+
+h3 {
+	font-size: 2.25em;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	}
+
+h4 {
+	font-size: 1.5em;
+	}
+
+small, .font_small {
+	font-size: 0.667em;
+	}
+
+
+h2.head {
+	Margin: 10px 0 10px 0;
+}
+h3.head {
+	Margin: 25px 0 15px 0;
+}
+h4.head {
+	Margin: 25px 0 15px 0;
+}
+
+a{
+	color: #035578;
+	
+}
+
+/*
+ * Resources Page
+ *******************************************
+*/
+.pageName{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+
+#resource{
+	margin: 20px auto 20px auto;
+	display: flex;
+	flex-flow: row wrap;
+	background: #FB8500;
+	width: 760px;
+}
+#resource .child{
+	height: 150px;
+	width: 150px;
+	background: #023951;
+	margin: 1px;
+	line-height: 150px;
+	text-align: center;
+}
+#resource .child a{
+	color: white;
+	text-decoration: none;
+}
+#resource .child a:hover{
+	background: #FB8500;
+	color: #023951;
+	display: block;
+}
+
+
+
+
+
+
+/*
+ *********************************************************************************************************************
+ *  The following is the stylings for the administration pages
+ *********************************************************************************************************************
+*/
+main#login{
+	width: 300px;
+	margin: 0 auto;
+}
+#login h3{
+	text-align: center;
+}
+.loginGroup{
+	width: 100%;
+}
+.loginGroup label,
+.loginGroup input[type=email],
+.loginGroup input[type=password]{
+	display: inline;
+	margin-bottom: 10px;
+}
+.emailGroup label{
+	margin-right: 28px;
+}
+#Adminloginbutton{
+	width: 100%;
+}
+#login button{
+	background: #023951;
+	color: white;
+	height: 50px;
+	width: 75px;
+	font-size: 1.25em;
+	display: block;
+	margin: 20px auto;
+}
+
+button,
+input[type="submit"]{
+	background: #023951;
+	color: white;
+	font-size: 1.25em;
+	display: block;
+	margin: 10px 0 10px 0;
+}
+
+
+
+/*
+ * Cats/Tags Page - Categories & Tags
+ *******************************************
+*/
+
+#wrapper #left{
+	width: 45%;
+	float: left;
+}
+#wrapper #right{
+	width: 45%;
+	float:right;
+}
+.acat{
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: solid #023951 1px;
+}
+.acat .catName{
+	width:24%;
+	float: left;
+	height: auto;
+}
+.acat .catEdit{
+	width:24%;
+	float: right;
+	height:auto;
+}
+
+.acat .catEdit #ButtonEdit{
+	margin: 3.5px auto;
+}
+.acat .tagEdit{
+	width: 30%;
+	margin-left: 20px;
+}
+.acat .tagEdit .field{
+	width:100%;
+	height: 34px;
+	position: relative;
+}
+
+.acat .tagEdit .field type[type=text]{
+	width:100%;
+	position: absolute;
+}
